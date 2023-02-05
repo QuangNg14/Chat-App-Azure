@@ -1,0 +1,75 @@
+﻿.app {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    /* width: 100%; */
+}
+
+.header {
+    text-align: center;
+    background-color: white;
+    color: white;
+
+}
+
+.createBlock {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    background-color: #EAFAF9;
+}
+
+.catDropdown {
+    width: 85%;
+}
+
+.button {
+    height: 60%;
+    width: 10%;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: medium;
+}
+
+    .button:hover {
+        transform: scale(1.05)
+    }
+
+.subBlock {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    background-color: #C1EDFA;
+}
+
+.messageBlock {
+    background-color: #C2F7EB;
+    padding: 10px;
+}
+
+.dataRecord {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-left: 60px;
+    /*    justify-content: space-evenly;*/
+}
+
+.messageContainer {
+    display: flex;
+    flex-direction: column;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    padding-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
