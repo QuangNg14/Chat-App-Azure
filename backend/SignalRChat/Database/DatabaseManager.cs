@@ -11,7 +11,7 @@ namespace SignalRChat.Database
         private static readonly IMongoDatabase DBConnection = setupDB();
         private static IMongoDatabase setupDB()
         {
-            string connectionString = "mongodb://warmup-b:j7a0DlprJw2flPiJkO0qMVgTH7ar5NDf4G66uV7ZB1AnEt4klQQDxvlsdhIQyojAfYSehuHcI6SJACDbErzjWg==@warmup-b.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@warmup-b@";// Environment.GetEnvironmentVariable("MONGO_DB_CONNECTION_STRING");
+            string connectionString = ""
             MongoClientSettings settings = MongoClientSettings.FromUrl(new MongoUrl(connectionString));
             settings.SslSettings = new SslSettings() { EnabledSslProtocols = SslProtocols.Tls12 };
             var connection = new MongoClient(settings).GetDatabase("DevelopmentDB");
